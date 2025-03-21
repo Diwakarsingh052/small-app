@@ -15,7 +15,7 @@ openssl rsa -in private.pem -pubout -out pubkey.pem
 go run ./exp/creating-jwt-token.go
 */
 
-func main() {
+func ABC() {
 	// iss (issuer): Issuer of the JWT
 	// sub (subject): Subject of the JWT (the user)
 	// aud (audience): Recipient for which the JWT is intended
