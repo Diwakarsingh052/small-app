@@ -43,7 +43,7 @@ func startApp() error {
 		return err
 	}
 	api := http.Server{
-		Addr:         ":8081",
+		Addr:         ":80",
 		ReadTimeout:  500 * time.Second,
 		WriteTimeout: 500 * time.Second,
 		IdleTimeout:  500 * time.Second,
